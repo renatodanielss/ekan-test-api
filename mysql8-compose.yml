@@ -1,0 +1,18 @@
+version: "3"
+services:
+   mysql8:
+      image: mysql:8.0.32
+      environment:
+         - discovery.type=single-node
+         - MYSQL_ROOT_PASSWORD=mysql123
+         - TZ=America/Sao_Paulo
+      ports:
+         - 3306:3306
+         - 3600:3600
+      restart: "no"
+      volumes:
+         - mysql8_data:/var/lib/mysql8
+      command: --secure-file-priv=""
+volumes:
+   mysql8_data:
+      external: true
