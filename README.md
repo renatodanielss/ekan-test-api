@@ -6,7 +6,7 @@ Repositório para o projeto Ekan Test API
 
 Este projeto foi desenvolvido utilizando a versão do Java 17 e o Framework Spring Boot 3.2.4.
 
-### Outras tecnologias, padrãos e abordagens utilizadas incluem:
+### Outras tecnologias, padrões e abordagens utilizadas incluem:
 
 Lombok: para que não seja necessário criar todos os getters and setters manualmente, tornando o código menos verboso.
 
@@ -54,7 +54,7 @@ Para rodar o banco de dados do MySQL 8 via docker disponível neste projeto via 
 
     docker compose -f mysql8-compose.yml up
 
-### Buildando Projeto
+### Buildando o Projeto
 
 Para buildar o projeto, basta executar o seguinte comando dentro da pasta raiz do projeto via terminal:
 
