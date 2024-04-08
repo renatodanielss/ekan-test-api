@@ -26,7 +26,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("Ekan Test API")
-                        .version("1.0.0")
+                        .version("1.1.0")
                         .description("Ekan Test API version")
                         .termsOfService("Termo de uso: Deve ser usada para testes.")
                         .license(new License()
